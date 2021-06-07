@@ -1,0 +1,10 @@
+.inputRow {
+    justify-content: center;
+}
+
+.inputCard {
+    width: 75%;
+    margin-bottom: 5vh;
+    background-color: #241E4E !important;
+    color: white;
+}

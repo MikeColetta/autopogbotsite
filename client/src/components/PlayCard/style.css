@@ -1,0 +1,15 @@
+.playCard {
+    background-color: #241E4E !important;
+    color: white;
+}
+
+.playerWrapper {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.reactPlayer > div {
+    position: absolute;
+  }
+

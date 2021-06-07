@@ -1,0 +1,36 @@
+body {
+  font-family: 'Odibee Sans', cursive;
+  background-color: #1985A1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 100px;
+}
+
+.customNavbar {
+  background-color: #241E4E;
+  color: #B33C86;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.jumbotronStyle {
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: #CABAC8 !important;
+    margin-top: 5vh;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
