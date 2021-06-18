@@ -13,6 +13,7 @@ body {
 }
 
 .customNavbar {
+  text-align: center;
   background-color: #241E4E;
   color: #B33C86;
 }
