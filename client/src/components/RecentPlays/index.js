@@ -34,6 +34,7 @@ function RecentPlays() {
         <h2 style={{color: "white"}}>Recent Plays</h2>
         <ListGroup>
             {plays.map((play) => (
+                <div key={play.id}>
                 <ListGroupItem className="listItems">
                     <PlayCard 
                     title = {play.title}
@@ -42,6 +43,7 @@ function RecentPlays() {
                     player = {play.player}
                     />
                 </ListGroupItem>
+                </div>
             ))}
         </ListGroup>
     </Card>
