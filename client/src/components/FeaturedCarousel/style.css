@@ -1,3 +1,7 @@
 .featuredPlays {
   color: white;
 }
+
+.featuredCarouselPlay {
+  height: 50vh;
+}
