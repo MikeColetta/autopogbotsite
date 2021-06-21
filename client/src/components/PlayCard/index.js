@@ -6,15 +6,13 @@ import './style.css'
 function PlayCard(props) {
     return (
         <Card className="playCard p-2">
-            <h5>{props.title}</h5>
+            <h3>{props.player} {props.playType} as {props.champ}</h3>
             <div className="playerWrapper">
                 <ReactPlayer className='reactPlayer'
                     url={props.url}
                     playsinline={true}
                 />
             </div>
-            <h5>Player: {props.player}</h5>
-            <p>{props.description}</p>
         </Card>
     )
 }

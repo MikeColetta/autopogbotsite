@@ -6,19 +6,21 @@ import firebase from "../../utils/firebase";
 function RecentPlays() {
     const [plays, setPlays] = useState([]);
     const [loading, setLoading] = useState(false);
-    
-    const ref = firebase.firestore().collection("SickPlays");
-    
-    function getPlays(){
-        setLoading(true);
-        ref.onSnapshot((querySnapshot) => {
-            const items = [];
-            querySnapshot.forEach((doc) => {
-                items.push(doc.data());
-            });
-            setPlays(items);
-            setLoading(false);
-        })
+
+    const ref = firebase.database().ref("sickplays");
+
+
+    function getPlays() {
+
+        firebase.database().ref("sickplays").on('value', snapshot => {
+            let items = [];
+            console.log(items)
+            snapshot.forEach(snap => {
+                items.push(snap.val());
+            })
+            setPlays(items)
+        }
+        )
     }
 
     useEffect(() => {
@@ -28,25 +30,25 @@ function RecentPlays() {
     if (loading) {
         return <h1>Loading...</h1>
     }
-    
+
     return (
-    <Card className="categoryCard">
-        <h2 style={{color: "white"}}>Recent Plays</h2>
-        <ListGroup>
-            {plays.map((play) => (
-                <div key={play.id}>
-                <ListGroupItem className="listItems">
-                    <PlayCard 
-                    title = {play.title}
-                    description = {play.description}
-                    url = {play.url}
-                    player = {play.player}
-                    />
-                </ListGroupItem>
-                </div>
-            ))}
-        </ListGroup>
-    </Card>
+        <Card className="categoryCard">
+            <h2 style={{ color: "white" }}>Recent Plays</h2>
+            <ListGroup>
+                {plays.map((play) => (
+                    <div key={play.id}>
+                        <ListGroupItem className="listItems">
+                            <PlayCard
+                                champ={play.ChampionPlayed}
+                                url={play.VideoURL}
+                                player={play.Summoner}
+                                playType={play.PlayType}
+                            />
+                        </ListGroupItem>
+                    </div>
+                ))}
+            </ListGroup>
+        </Card>
     )
 }
 
