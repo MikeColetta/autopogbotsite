@@ -12,13 +12,14 @@ function RecentPlays() {
 
     function getPlays() {
 
-        firebase.database().ref("sickplays").on('value', snapshot => {
+        firebase.database().ref("sickplays").orderByChild("Time").on('value', snapshot => {
             let items = [];
             console.log(items)
             snapshot.forEach(snap => {
                 items.push(snap.val());
+                items.reverse();
             })
-            setPlays(items)
+            setPlays(items);
         }
         )
     }
