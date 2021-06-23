@@ -9,15 +9,11 @@ function Homepage() {
     return (
         <Container>
             <Row>
-                <About />
+                <About className="mt-5"/>
             </Row>
             <Row className="mt-5">
-                <Col className="col-8">
+                <Col className="col-12">
                     <RecentPlays />
-                </Col>
-                <Col className="col-4">
-
-                    <Login />
                 </Col>
             </Row>
         </Container>

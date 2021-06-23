@@ -1,6 +1,8 @@
 .playCard {
     background-color: #241E4E !important;
     color: white;
+    margin: auto;
+    width: 75%;
 }
 
 .playerWrapper {

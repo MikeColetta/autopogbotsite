@@ -13,7 +13,8 @@ class App extends Component {
           <br></br>
           {/* <p className="m-auto">Eef Freef</p>          */}
         </Navbar>
-        <FeaturedCarousel />
+        <FeaturedCarousel className="mb-5"/>
+        <br></br>
         <Homepage />
       </div>
     );

@@ -45,7 +45,7 @@ function RecentPlays() {
     return (
         <Card className="categoryCard">
             <h2 style={{ color: "white" }}>Recent Plays</h2>
-            <ListGroup>
+            <ListGroup className="playList">
                 {currentPlays.map((play) => (
                     <div key={play.id}>
                         <ListGroupItem className="listItems">

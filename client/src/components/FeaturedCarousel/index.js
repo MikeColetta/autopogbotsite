@@ -11,7 +11,7 @@ function FeaturedCarousel() {
             <Carousel className="FeaturedCarousel" interval={null} indicators={false}>
                 <Carousel.Item className="featuredCarouselPlay">
                     <ReactPlayer 
-                        style={{margin: "auto", height: "100%", width: "100%"}}
+                        style={{margin: "auto", width: "100%"}}
                         url="https://vimeo.com/559811687"
                         playsinline={true}
                     />
