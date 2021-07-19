@@ -4,12 +4,15 @@ import PlayCard from '../PlayCard';
 import firebase from '../../utils/firebase';
 import PlayPagination from '../PlayPagination';
 import './style.css';
+import Search from '../Search';
 
 function RecentPlays() {
     const [plays, setPlays] = useState([]);
     const [loading, setLoading] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [playsPerPage] = useState(5);
+
+// orderByChild("Time").
 
     const ref = firebase.database().ref("sickplays");
 
