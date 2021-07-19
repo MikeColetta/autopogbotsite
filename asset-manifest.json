@@ -1,14 +1,14 @@
 {
-  "main.css": "/autopogbotsite/static/css/main.0436e089.chunk.css",
-  "main.js": "/autopogbotsite/static/js/main.f1d6a5d9.chunk.js",
-  "main.js.map": "/autopogbotsite/static/js/main.f1d6a5d9.chunk.js.map",
+  "main.css": "/autopogbotsite/static/css/main.c84fe4bd.chunk.css",
+  "main.js": "/autopogbotsite/static/js/main.9f28cb8e.chunk.js",
+  "main.js.map": "/autopogbotsite/static/js/main.9f28cb8e.chunk.js.map",
   "runtime~main.js": "/autopogbotsite/static/js/runtime~main.6a4f5be7.js",
   "runtime~main.js.map": "/autopogbotsite/static/js/runtime~main.6a4f5be7.js.map",
   "static/js/2.a249eb77.chunk.js": "/autopogbotsite/static/js/2.a249eb77.chunk.js",
   "static/js/2.a249eb77.chunk.js.map": "/autopogbotsite/static/js/2.a249eb77.chunk.js.map",
   "index.html": "/autopogbotsite/index.html",
-  "precache-manifest.2e90228a36fdd9e89ddf3ffc13062fe5.js": "/autopogbotsite/precache-manifest.2e90228a36fdd9e89ddf3ffc13062fe5.js",
+  "precache-manifest.816c22681714b6a024734f9f9612fb3b.js": "/autopogbotsite/precache-manifest.816c22681714b6a024734f9f9612fb3b.js",
   "service-worker.js": "/autopogbotsite/service-worker.js",
-  "static/css/main.0436e089.chunk.css.map": "/autopogbotsite/static/css/main.0436e089.chunk.css.map",
+  "static/css/main.c84fe4bd.chunk.css.map": "/autopogbotsite/static/css/main.c84fe4bd.chunk.css.map",
   "static/media/tyler-circle.png": "/autopogbotsite/static/media/tyler-circle.94e3b8fb.png"
 }
