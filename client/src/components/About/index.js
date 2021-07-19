@@ -18,7 +18,6 @@ function About() {
                             <p>AutoPOGBot was created by Tyler Ostby to capture all of your Triple, Quadra, and Pentakills. Once you set AutoPOGBot to monitor your game,
                                 they'll tune in and push any of your multikills up to Vimeo.
                             </p>
-                            <p>Login to start recording!</p>
                         </Card>
                     </Row>
                 </Col>
