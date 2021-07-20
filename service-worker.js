@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/autopogbotsite/precache-manifest.816c22681714b6a024734f9f9612fb3b.js"
+  "/autopogbotsite/precache-manifest.7ef0dc37ed749d73bd55968bce4f0989.js"
 );
 
 workbox.clientsClaim();
