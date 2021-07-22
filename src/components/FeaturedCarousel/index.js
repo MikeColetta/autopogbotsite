@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import ReactPlayer from "react-player";
+import ResponsivePlayer from "../ResponsivePlayer";
 import './style.css';
 
 function FeaturedCarousel() {
@@ -8,26 +8,20 @@ function FeaturedCarousel() {
     return (
         <div>
             <h2 className="featuredPlays">Featured Plays of the Game!</h2>
-            <Carousel className="FeaturedCarousel" interval={null} indicators={false}>
-                <Carousel.Item className="featuredCarouselPlay">
-                    <ReactPlayer 
-                        style={{margin: "auto", width: "100%"}}
+            <Carousel interval={null} indicators={false}>
+                <Carousel.Item>
+                    <ResponsivePlayer 
                         url="https://vimeo.com/559811687"
-                        playsinline={true}
                     />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ReactPlayer 
-                        style={{margin: "auto", width: "100%"}}
+                    <ResponsivePlayer
                         url="https://vimeo.com/559851440"
-                        playsinline={true}
                     />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ReactPlayer 
-                        style={{margin: "auto", width: "100%"}}
+                    <ResponsivePlayer
                         url="https://vimeo.com/559302602"
-                        playsinline={true}
                     />
                 </Carousel.Item>
             </Carousel>
