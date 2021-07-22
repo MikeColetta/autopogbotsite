@@ -12,7 +12,7 @@ const PlayPagination = ({ playsPerPage, totalPlays, paginate }) => {
 
 
     return (
-        <Pagination className="paginationStyle">
+        <Pagination className="paginationStyle flex-wrap">
             {pageNumbers.map(number => (
                 <Pagination.Item onClick={() => paginate(number)}>
                     {number}
