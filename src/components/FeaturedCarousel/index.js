@@ -32,7 +32,7 @@ function FeaturedCarousel() {
             <Carousel interval={null} indicators={false}>
                 {featuredPlays.map((play) => (
                         <Carousel.Item key={play.id}>
-                            <ReactPlayer url={play.VideoURL} style={{margin:"auto"}}/>
+                            <ReactPlayer url={play.VideoURL} style={{margin:"auto"}} width='75%'playsinline='true'/>
                         </Carousel.Item>
                 ))}
             </Carousel>
