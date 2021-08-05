@@ -9,12 +9,15 @@ function FeaturedCarousel() {
     const [featuredPlays, setFeaturedPlays] = useState([]);
 
     function getFeaturedPlays() {
-        firebase.database().ref("sickplays").orderByChild("Time").limitToLast(3).on('value', snapshot => {
+        firebase.database().ref("sickplays").orderByChild("Time").limitToLast(25).on('value', snapshot => {
             let items = [];
+            let featured = [];
             snapshot.forEach(snap => {
                 items.push(snap.val());
+                let randomItems = items.sort(() => 0.5 - Math.random());
+                featured = randomItems.slice(0,5)
             })
-            setFeaturedPlays(items)
+            setFeaturedPlays(featured)
         }
         )
     }
