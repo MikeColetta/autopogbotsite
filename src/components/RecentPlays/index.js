@@ -12,17 +12,18 @@ function RecentPlays() {
     const [currentPage, setCurrentPage] = useState(1);
     const [playsPerPage] = useState(5);
 
-// orderByChild("Time").
-
-    const ref = firebase.database().ref("sickplays");
-
     function getPlays() {
-        firebase.database().ref("sickplays").orderByChild("Time").on('value', snapshot => {
+        firebase.database().ref("sickplays").orderByChild("Time").limitToLast(50).on('value', snapshot => {
             let items = [];
-            console.log(items)
             snapshot.forEach(snap => {
                 items.push(snap.val());
-                items.reverse();
+                items.sort(function(a, b) {
+                    var keyA = new Date(a.Time),
+                        keyB = new Date(b.Time);
+                    if (keyA > keyB) return -1;
+                    if (keyA < keyB) return 1;
+                    return 0;
+                  });
             })
             setPlays(items);
         }

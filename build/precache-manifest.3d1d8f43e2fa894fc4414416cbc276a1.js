@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "8c488ef30fee20875002",
-    "url": "/autopogbotsite/static/css/main.d29cf342.chunk.css"
+    "revision": "8295b3fbadfad0d5cf83",
+    "url": "/autopogbotsite/static/css/main.16075dc3.chunk.css"
   },
   {
-    "revision": "8c488ef30fee20875002",
+    "revision": "8295b3fbadfad0d5cf83",
     "url": "/autopogbotsite/static/js/main.2959c65f.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/autopogbotsite/static/media/tyler-circle.df7286c5.png"
   },
   {
-    "revision": "ad25ecc6756c3f1ee127bdb20f1e0a53",
+    "revision": "8cc39b8a4e0e26d25ae89e5a39255b4f",
     "url": "/autopogbotsite/index.html"
   }
 ];

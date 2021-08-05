@@ -1,5 +1,5 @@
 {
-  "main.css": "/autopogbotsite/static/css/main.d29cf342.chunk.css",
+  "main.css": "/autopogbotsite/static/css/main.16075dc3.chunk.css",
   "main.js": "/autopogbotsite/static/js/main.2959c65f.chunk.js",
   "main.js.map": "/autopogbotsite/static/js/main.2959c65f.chunk.js.map",
   "runtime~main.js": "/autopogbotsite/static/js/runtime~main.6a4f5be7.js",
@@ -7,8 +7,8 @@
   "static/js/2.a5bba50d.chunk.js": "/autopogbotsite/static/js/2.a5bba50d.chunk.js",
   "static/js/2.a5bba50d.chunk.js.map": "/autopogbotsite/static/js/2.a5bba50d.chunk.js.map",
   "index.html": "/autopogbotsite/index.html",
-  "precache-manifest.680bd638f9c5eb8f6b93acadc2998980.js": "/autopogbotsite/precache-manifest.680bd638f9c5eb8f6b93acadc2998980.js",
+  "precache-manifest.3d1d8f43e2fa894fc4414416cbc276a1.js": "/autopogbotsite/precache-manifest.3d1d8f43e2fa894fc4414416cbc276a1.js",
   "service-worker.js": "/autopogbotsite/service-worker.js",
-  "static/css/main.d29cf342.chunk.css.map": "/autopogbotsite/static/css/main.d29cf342.chunk.css.map",
+  "static/css/main.16075dc3.chunk.css.map": "/autopogbotsite/static/css/main.16075dc3.chunk.css.map",
   "static/media/tyler-circle.png": "/autopogbotsite/static/media/tyler-circle.df7286c5.png"
 }
