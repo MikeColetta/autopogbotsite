@@ -1,14 +1,7 @@
 {
-  "main.css": "/autopogbotsite/static/css/main.91b19507.chunk.css",
-  "main.js": "/autopogbotsite/static/js/main.181ef0f2.chunk.js",
-  "main.js.map": "/autopogbotsite/static/js/main.181ef0f2.chunk.js.map",
-  "runtime~main.js": "/autopogbotsite/static/js/runtime~main.6a4f5be7.js",
-  "runtime~main.js.map": "/autopogbotsite/static/js/runtime~main.6a4f5be7.js.map",
-  "static/js/2.e8a8ecbe.chunk.js": "/autopogbotsite/static/js/2.e8a8ecbe.chunk.js",
-  "static/js/2.e8a8ecbe.chunk.js.map": "/autopogbotsite/static/js/2.e8a8ecbe.chunk.js.map",
-  "index.html": "/autopogbotsite/index.html",
-  "precache-manifest.1458f437a3ab66e609419aedc967a389.js": "/autopogbotsite/precache-manifest.1458f437a3ab66e609419aedc967a389.js",
-  "service-worker.js": "/autopogbotsite/service-worker.js",
-  "static/css/main.91b19507.chunk.css.map": "/autopogbotsite/static/css/main.91b19507.chunk.css.map",
-  "static/media/tyler-circle.png": "/autopogbotsite/static/media/tyler-circle.df7286c5.png"
+  "main.css": "static/css/main.1bf7ab00.css",
+  "main.css.map": "static/css/main.1bf7ab00.css.map",
+  "main.js": "static/js/main.ceb8eb95.js",
+  "main.js.map": "static/js/main.ceb8eb95.js.map",
+  "static\\media\\tyler-circle.png": "static/media/tyler-circle.df7286c5.png"
 }
