@@ -1,4 +1,4 @@
-# Responsive-Portfolio
+# AutoPOGbot Site
 
 ![GitHub](https://img.shields.io/github/license/MikeColetta/autopogbotsite)
 
